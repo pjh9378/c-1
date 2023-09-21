@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+    int num1, num2;
+
+    // 두 개의 정수를 입력 받음
+    printf("Input two integers: ");
+    scanf("%d %d", &num1, &num2);
+
+    // AND 연산 결과 출력
+    printf("%d & %d = %d\n", num1, num2, num1 & num2);
+
+    // OR 연산 결과 출력
+    printf("%d | %d = %d\n", num1, num2, num1 | num2);
+
+    // XOR 연산 결과 출력
+    printf("%d ^ %d = %d\n", num1, num2, num1 ^ num2);
+
+    return 0;
+}
